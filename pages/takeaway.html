@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Кофейня Полная Чаша. Кофе, чай, десерты, напитки">
+		<meta name="keywords" content="кофейня, кафе, напитки, навынос, чай, кофе, десерт">
+		<meta name="author" content="Евгения Шустикова">
+		<meta name="generator" content="Visual Studio Code">
+        <title>Заказ еды навынос : :
+            Полная Чаша: кофейня</title>
+            <link href="../css/style.css"
+            rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Кофейня <em>&laquo;Полная Чаша&raquo;</em></h1>
+        </header>
+        <!-- <nav>
+			<div><a href="../pages/index.html">Главная</a></div> 
+			<div><a href="../pages/coffee.html">Кофе</a></div> 
+			<div><a href="../pages/tea.html">Чай</a></div> 
+			<div><a href="../pages/dessert.html">Десерты</a></div> 
+			<div><a href="../pages/pricelist.html">Прайс-лист</a></div> 
+		</nav> -->
+        <main>
+            <h2>Заказ навынос</h2>
+            <form action="mailto:order@polnayachasha.ru"
+                method="post" enctype="text/plain">
+                <p><lable for="dishes">Что желаете заказать?</lable><br>
+                <select name="dishes" id="dishes" size="6"
+                    multiple>
+                    <optgroup label="Кофе">
+                        <option value="americano">Американо</option>
+                        <option value="cappuccino">Капучино</option>
+                        <option value="latte">Латте</option>
+                    </optgroup>
+                    <optgroup label="Чай">
+                        <option value="teamal">Чай малиновый</option>
+                        <option value="teaob">Чай облепиховый</option>
+                        <option value="teatai">Чай таёжный</option>
+                        <option value="teaim">Чай имбирный</option>
+                    </optgroup>    
+                    <optgroup label="Десерт">
+                        <option value="cupcake">Капкейк</option>
+                        <option value="trub">Трубочка со сгущёнкой</option>
+                        <option value="kartoshka">Пирожное &laquo;Картошка&raquo;</option>
+                    </optgroup>
+                </select></p>
+                <p><lable for="phone">По какому номеру телефона Вам перезвонить?</lable><br>
+                <input type="text" name="phone" id="phone"
+                required></p>
+                <p><input type="submit" value="Отправить"></p>
+                <input type="button" value="Курлык!">
+            </form>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; читатели книги &laquo;HTML и CSS&raquo;<br>Все права защищены</p>
+        </footer>
+    </body>
+</html>

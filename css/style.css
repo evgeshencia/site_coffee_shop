@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Cousine;
+    src: url(../fonts/Cousine-Regular.ttf);
+}
+@font-face {
+    font-family: Cousine;
+    src: url(../fonts/Cousine-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Cousine;
+    src: url(../fonts/Cousine-Italic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: Cousine;
+    src: url(../fonts/Cousine-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+body {font-family: 'Verdana';}
+h1 em {
+    font-size: 32pt;
+    font-family: 'Verdana';
+    font-weight: normal;
+}
+p {font-size: 14pt !important;}
+address {font-size: 12pt;}
+p.greeting {font-size: 24pt;}
+.picture img {width: 50%;}
+/* comment section in CSS */
+.advertising div {
+                margin-left: 30pt;
+                font-size: 12pt;
+                margin-top: 5pt;
+                margin-bottom: 5pt;}
+header {text-align: center;}
+main {text-align: justify;}
+footer {text-align: right;}
+.bigger {font-size: 16pt;}
+table.pricelist th, table.pricelist td {
+    border: grey thin solid;
+    padding: 4px;   /* padding creates space between each table's cell */
+
+}
+table.catalog {border-collapse: collapse;} /* means не рисовать рамку вокруг ячеек, а проводить между ними линии */
+table.catalog td {
+    border-top: black thin dotted;
+    border-bottom: black thin dotted;
+    padding: 20px;
+}
+table.catalog img {width: 250px;}
+table.pricelist thead th {
+    color: white;
+    background-color: grey;
+}
+table.pricelist tfoot td {
+    font-style: italic;
+    text-align: right;
+    background-color: lightgrayo;
+}
+table.pricelist tbody th {
+    color: black;
+    background-color: lightgray;
+}
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 10px;
+    padding: 10px;
+    border: black medium double;
+    border-radius: 10px;
+}
+nav div {
+    font-size: 20pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+table.catalog tr:first-child td {border-top: none;}
+table.catalog tr:last-child td {border-bottom: none;}
+
+table.catalog td p:first-of-type::first-letter {
+    font-size: 24pt;
+}
+
+p::selection {
+color:black;
+background-color: orange;
+}
+table.pricelist tbody th[colspan] {
+    text-align: center;
+}
+table.pricelist tbody td:last-child:not(:only-child) {
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+table.catalog h3 {
+    font-family: "Cousine";
+    font-size: 24pt;
+}
+table.catalog p {
+    font-family: "Cousine";
+}
+table.catalog p {
+    font-style: italic;
+}
