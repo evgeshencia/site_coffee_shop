@@ -19,10 +19,8 @@
     font-style: italic;
 }
 body {font-family: 'Verdana';}
-h1 em {
-    font-size: 32pt;
-    font-family: 'Verdana';
-    font-weight: normal;
+h1 { font: 32pt 'Verdana';
+    text-shadow: 3pt 3pt 5pt darkgrey;
 }
 p {font-size: 14pt !important;}
 address {font-size: 12pt;}
@@ -102,3 +100,6 @@ table.catalog p {
     font-family: "Cousine";
     font-style: italic;
 }
+table.catalog h3::after {content: ":";}
+
+
