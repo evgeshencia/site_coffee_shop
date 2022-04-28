@@ -98,8 +98,20 @@ table.catalog h3 {
 }
 table.catalog p {
     font-family: "Cousine";
-    font-style: italic;
 }
-table.catalog h3::after {content: ":";}
+table.catalog h3::after {
+    content: ":"; 
+    font-size: 18pt;
+}
+
+table.catalog h3 {
+    font-variant: small-caps;
+    text-transform: capitalize;
+    letter-spacing: 2pt;
+     
+}
+table.catalog p::first-letter {
+    vertical-align: text-top;
+}
 
 
