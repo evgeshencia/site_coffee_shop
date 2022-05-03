@@ -127,4 +127,16 @@ p.greeting {
     border-top: medium dashed darkgrey;
     border-width: 2px;
 }
-
+ol {
+    list-style-type: upper-roman;
+}
+table.catalog {
+    width: 70%;
+    min-width: 12cm;
+}
+table.catalog td:first-child {
+    width: 50%;
+}
+table.catalog td img {
+    width: 100%;
+}
