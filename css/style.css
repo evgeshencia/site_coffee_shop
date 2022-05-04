@@ -140,3 +140,10 @@ table.catalog td:first-child {
 table.catalog td img {
     width: 100%;
 }
+nav a:link, nav a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+nav a:active, nav a:hover {
+    color: darksalmon;
+}
