@@ -147,3 +147,43 @@ nav a:link, nav a:visited {
 nav a:active, nav a:hover {
     color: darksalmon;
 }
+p.bottom {
+    border-top: medium dashed darkgrey;
+    border-width: 3px;
+}
+form {
+    width: 400px;
+    padding: 0px 20px;
+    border: thin dotted darkgrey;
+    border-radius: 20px;
+}
+input, select {
+    font: 14pt Courier;
+    padding: 5px;
+    border: medium solid black;
+    border-radius: 10px;
+}
+input[type=submit] {
+    font: bold 20pt Verdana;
+    text-transform: uppercase;
+    width: 250px;
+    border: thick solid black;
+    border-radius: 0px;
+}
+input[type=image] {
+    border-style: none;
+}
+input:focus {
+    border-color: white;
+    background-color: lightskyblue;
+}
+input:valid {
+    border-color: green;
+}
+input:invalid {
+    border-color: red;
+}
+input::placeholder {
+    font-style: italic;
+    text-align: center;
+}
