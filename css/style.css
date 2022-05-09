@@ -18,7 +18,11 @@
     font-weight: bold;
     font-style: italic;
 }
-body {font-family: 'Verdana';}
+body {
+    font-family: 'Verdana';
+    background-image: linear-gradient(to right top,
+    lightgrey 0%, white 67%, grey 100%);
+}
 h1 { font: 32pt 'Verdana';
     text-shadow: 3pt 3pt 5pt darkgrey;
 }
