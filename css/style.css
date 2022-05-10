@@ -20,8 +20,8 @@
 }
 body {
     font-family: 'Verdana';
-    background-image: linear-gradient(to right top,
-    lightgrey 0%, white 67%, grey 100%);
+    background-image: repeating-linear-gradient(to right, white 0px, 
+    bisque 5px, white 10px);
 }
 h1 { font: 32pt 'Verdana';
     text-shadow: 3pt 3pt 5pt darkgrey;
