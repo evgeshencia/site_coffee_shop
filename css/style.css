@@ -22,17 +22,50 @@ body {
     font-family: 'Verdana';
     background-image: repeating-linear-gradient(to right, white 0px, 
     bisque 5px, white 10px);
+    margin: 0px;
 }
-h1 { font: 32pt 'Verdana';
-    text-shadow: 3pt 3pt 5pt darkgrey;
+header {
+  background-color: white;
+  height: 135pt;
+  margin-bottom: 20pt;
 }
+.pos1, .pos2, .pos3 {
+  position: absolute;
+}
+.pos1 {
+  left: 0pt;
+  top: 0pt;
+  width: 100pt;
+}
+.pos2 {
+  left: 140pt;
+  top: 84pt;
+  right: 0pt;
+}
+.pos3 {
+  left: 140pt;
+  top: 55pt;
+  right: 30pt;
+}
+.pos1 img {height: 100pt;}
 p {font-size: 14pt !important;}
 address {font-size: 12pt;}
 p.greeting {font-size: 24pt;}
-.picture img {
-    width: 50%;
-    min-width: 500px;
-    max-width: 700 px;
+.pos2 h1 {
+  font: bold italic 42pt Verdana;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 5pt;
+  margin: 0px;
+  background-color: darksalmon;
+}
+.pos3 h1 {
+  font: bold 24pt Verdana;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 6pt;
+  margin: 0px;
+  color: darksalmon;
 }
 /* comment section in CSS */
 .advertising div {
@@ -40,7 +73,7 @@ p.greeting {font-size: 24pt;}
                 font-size: 12pt;
                 margin-top: 5pt;
                 margin-bottom: 5pt;}
-header {text-align: center;}
+
 main {text-align: justify;}
 footer {
     text-align: right;
