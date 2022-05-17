@@ -47,6 +47,10 @@ header {
   top: 55pt;
   right: 30pt;
 }
+.pos4 {
+  right: 20pt;
+  top: 0pt;
+}
 .pos1 img {height: 100pt;}
 p {font-size: 14pt !important;}
 address {font-size: 12pt;}
@@ -77,9 +81,24 @@ p.greeting {font-size: 24pt;}
 main {text-align: justify;}
 footer {
     text-align: right;
-    width: 50%;
-    min-width: 300px;
-    margin-left: 50%;
+    background-color: white;
+    height: 120pt;
+    position: relative;
+}
+.pos5 {
+  background-color: darksalmon;
+  position: absolute;
+  left: 30pt;
+  top: 28pt;
+  width: 100pt;
+}
+.pos5 p {
+  font: bold 16pt Verdana;
+  text-align: center;
+}
+div.pos5 a:link {
+  text-decoration: none;
+  color: white;
 }
 .bigger {font-size: 16pt;}
 table.pricelist th, table.pricelist td {
